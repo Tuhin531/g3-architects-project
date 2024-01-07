@@ -191,11 +191,33 @@ hr{
     font-weight: 400;
 
 }
+
+
+
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-years-badge p{
+    font-size: 1.5rem;
+}
 /* .feacture-photo{
     position: relative;
 
 } */
-.btn-primary2{
+/* .btn-primary2{
    
     width: 300px;
     border-radius: 8px;
@@ -216,7 +238,7 @@ hr{
     font-weight: 500;
    
    
-}
+} */
 
 /* Fact section */
 .fact-contains{
