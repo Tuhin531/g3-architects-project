@@ -213,32 +213,7 @@ hr{
 .ten-years-badge p{
     font-size: 1.5rem;
 }
-/* .feacture-photo{
-    position: relative;
 
-} */
-/* .btn-primary2{
-   
-    width: 300px;
-    border-radius: 8px;
-    background: #FF900E;
-    border: 0;
-    color: #FFF;
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    padding: 30px;
-   
-
-
-}
-.btn-primary2 .btn-span{
-    color: #FFF;
-    font-size: 25px;
-    font-weight: 500;
-   
-   
-} */
 
 /* Fact section */
 .fact-contains{
@@ -333,6 +308,18 @@ font-weight: 400;
     margin: 50px 40px;
     opacity: 50%;
 }
+/* team section */
+.team-titel{
+    text-align: center;
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 100px;
+
+}
+.team-detais{
+    display: flex;
+}
 .footer{
    
 border-radius: 8px;
@@ -348,4 +335,23 @@ padding: 40px;
 
 }
 
+.hide{
+    display: none;
+}
 
+
+
+@media only screen and (max-width: 688px){
+     .nav-title{
+         font-size: 25px;
+
+     }
+     .nav-menu ul{
+        
+        flex-direction:column;
+        gap:10px;
+        font-weight: 700px;
+         
+
+     }
+}
