@@ -47,6 +47,12 @@ header{
     gap:34px;
     align-items: center;
 }
+.nav-menu ul :hover{
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
 /* Banner part */
 .banner-contains{
     text-align: center;
@@ -88,8 +94,10 @@ header{
     border-radius: 8px;
     border: 0px;
     padding: 20px 24px;
+    cursor: pointer;
 
 }
+
 
 /* Feature Seaction */
 .feature-section{
@@ -309,6 +317,13 @@ font-weight: 400;
     opacity: 50%;
 }
 /* team section */
+.team-section{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+    padding-bottom: 50px;
+
+}
 .team-titel{
     text-align: center;
     color:  #131313;
@@ -319,7 +334,41 @@ font-weight: 400;
 }
 .team-detais{
     display: flex;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+   
+    
+
 }
+
+.team-photo img{
+    width: 200px;
+    height: 200px;
+}
+.team-detai{
+    padding-left: 20px;
+}
+.team-description{
+    width: 400px;
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+ .team-detais .member{
+    color:  #131313;
+    font-size: 20px;
+    font-weight: 500px;
+    width: 468px;
+
+}
+.position{
+    color:  #727272;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .footer{
    
 border-radius: 8px;
@@ -335,15 +384,11 @@ padding: 40px;
 
 }
 
-.hide{
-    display: none;
-}
-
-
 
 @media only screen and (max-width: 688px){
      .nav-title{
          font-size: 25px;
+         
 
      }
      .nav-menu ul{
@@ -351,7 +396,24 @@ padding: 40px;
         flex-direction:column;
         gap:10px;
         font-weight: 700px;
+       
          
 
+     }
+     .banner-contains{
+        width: 100%;
+
+     }
+     .banner-title{
+         
+         /* padding-left: 60px; */
+        padding-left: 0px;
+         font-size: 30px;
+        
+     }
+     .banner-description{
+        padding-left: 0px;
+        text-align: center;
+       
      }
 }
